@@ -1,0 +1,12 @@
+path: ../data
+train: # train images (relative to 'path')  16551 images
+  - images
+val: # val images (relative to 'path')  4952 images
+  - images
+
+# Classes
+names:
+  0: trafficlight
+  1: speedlimit
+  2: crosswalk
+  3: stop
